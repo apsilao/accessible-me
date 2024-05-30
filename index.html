@@ -24,11 +24,11 @@
   </ul>
 
   <div class="container">
-    <!-- site header role to banner -->
-    <div class="site-header" role="banner">
+    <!-- site header role to banner updated div to header-->
+    <header class="site-header" role="banner">
       <h1>Jam Box Studios</h1>
-      <!-- added id for  skip link for main navigation -->
-      <div class="main-nav" id="nav" role="navigation">
+      <!-- added id for  skip link for main navigation updated div to nav-->
+      <nav class="main-nav" id="nav" role="navigation">
         <ul>
           <!-- aria label pattern from IMDAC -->
           <li><a href="#" aria-label="Go to Home page">Home</a></li>
@@ -36,14 +36,17 @@
           <li><a href="#" aria-label="Go to Reservation page">Reservation</a></li>
           <li><a href="#" aria-label="Go to Studio page">Studio</a></li>
         </ul>
-      </div>
+      </nav>
+
 
       <!-- added alt tag for Banner image -->
       <img src="https://placekitten.com/1200/900" alt="Jam Box Studios Banner Image" class="banner">
-    </div>
+    </header>
 
-    <!-- main id added for skip links  -->
-    <div class="main-content" id="main" role="main">
+
+
+    <!-- main id added for skip links  updated div to main-->
+    <main class="main-content" id="main" role="main">
 
       <h2 role="heading">Welcome to Jam Box</h2>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa
@@ -53,7 +56,7 @@
         omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto
         error voluptatibus.</p>
 
-        <!-- added schema  and item prop reference: https://schema.org-->
+      <!-- added schema  and item prop reference: https://schema.org-->
       <div class="owner" itemscope itemtype="https://schema.org/Person" role="region">
         <h2>Meet the owner</h2>
         <ul>
@@ -89,11 +92,12 @@
           <button type="submit">Send</button>
         </form>
       </div>
-    </div>
-    <!-- aria role content info for footer -->
-    <div class="site-footer" role="contentinfo">
+    </main>
+
+    <!-- aria role content info for footer /updated div to footer-->
+    <footer class="site-footer" role="contentinfo">
       &copy; 2021 Jam Box Studios
-    </div>
+    </footer>
   </div>
 </body>
 
