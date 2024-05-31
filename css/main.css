@@ -51,6 +51,7 @@ img {
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
+  /* add space between nav items */
   justify-content: center;
   gap: 20px;
 }
@@ -67,6 +68,7 @@ img {
   font-size: 1.25rem;
 }
 
+/* add  underline hover effect for nav items */
 .main-nav ul li a:hover {
   text-decoration: underline;
 }
@@ -93,6 +95,7 @@ form button {
   text-transform: uppercase;
 }
 
+/* add hover effect underline for send button */
 form button:hover {
   text-decoration: underline;
 } 
